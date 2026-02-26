@@ -43,16 +43,20 @@ This project is intended for educational and research purposes.
 
 ## Project Structure
 
+```
+
 Makcu-Mouse-Serial-Changer/
 │
-├── main.cpp
+├── src/
+│   └── main.cpp
 │
 ├── Makcu/
 │   └── include/
-│   └── src/
 │
 ├── README.md
 └── .gitignore
+
+```
 
 ---
 
@@ -82,7 +86,11 @@ Serials are generated using:
 
 Example generated serial:
 
+```
+
 A7XK29LMQ8
+
+```
 
 ---
 
@@ -105,10 +113,16 @@ Compile the project and run the executable.
 
 When prompted:
 
+```
+
 Type the desired serial length (8–11)
 Type 0 to reset the serial
 
+```
+
 Example flow:
+
+```
 
 (-) Current Mouse Serial: ABCD12348
 
@@ -116,6 +130,8 @@ Example flow:
 
 (+) Successfully changed your mouse serial
 (-) New Mouse Serial: ZYXW987658
+
+```
 
 ---
 
