@@ -47,11 +47,11 @@ This project is intended for educational and research purposes.
 
 Makcu-Mouse-Serial-Changer/
 │
-├── src/
-│   └── main.cpp
+├── main.cpp
 │
 ├── Makcu/
 │   └── include/
+│   └── src/
 │
 ├── README.md
 └── .gitignore
@@ -132,23 +132,6 @@ Example flow:
 (-) New Mouse Serial: ZYXW987658
 
 ```
-
----
-
-## Build Instructions (Visual Studio)
-
-1. Clone or download the makcu-cpp repository  
-   https://github.com/K4HVH/makcu-cpp
-
-2. Add the makcu-cpp include directory to your project
-
-3. Create a new C++ Console Application
-
-4. Set the language standard to C++17
-
-5. Add `main.cpp`
-
-6. Build in x64 mode
 
 ---
 
